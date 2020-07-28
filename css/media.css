@@ -1,0 +1,216 @@
+@media screen and (max-width:900px) {
+.header_content_title h1 {
+font-size:48px!important;}
+header nav {
+text-align: center;    
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+}  
+header .menu-burger {
+display: block;} 
+div.header_top_menu {
+position: absolute;
+width: 100%;
+top: 100px;
+min-height: 280px;
+display: none;
+justify-content: center;
+align-items: center;
+background-color: rgba(1,1,1,0.85);
+z-index: 99999;
+transition: all ease 0.8s;
+}
+.header_top_menu ul {
+flex-direction: column;
+width: 100%;    
+}
+.header_top_menu ul li {
+margin-top: 20px;    
+}
+.header_top_menu ul a {
+text-transform: uppercase;    
+}
+.services .services_cards {
+flex-wrap: wrap;  
+justify-content: center;  
+}
+.services .services_cards_item {
+flex: 0 1 48%;    
+}
+.services_cards_item {
+margin-bottom: 20px;    
+}
+.services .services_info {
+margin-top: 100px;    
+}
+.quality .row {flex-wrap: wrap;}
+.quality .columns {
+flex: 1 0 100%;    
+}
+div.quality {
+padding: 50px 0 10px;    
+}
+div.quality_cards {
+margin-top: 30px;    
+}
+div.quality_cards_items {
+text-align: center;
+margin-bottom: 25px;    
+}
+div.slider_items_img {
+flex: 0 1 33.333%; 
+max-width: 33.333%;   
+}
+div.slider {
+padding-top: 100px;    
+}
+div.data {padding:0 0 35px 0;}  
+.data .row {flex-wrap: wrap;}  
+.data .columns {
+flex: 1 0 100%;    
+}
+.data .video {
+margin-top: 30px;    
+}
+div.data_text p {
+padding-right: 0;
+margin: 25px 0;    
+}
+.design .row {
+flex-wrap: wrap;    
+}
+.design .columns {
+flex: 1 0 100%;;    
+}
+div.design_info {
+padding: 35px 0;    
+}
+}
+@media screen and (max-width:700px){
+p.footer_info_title .subscribe {
+text-align: center;    
+}    
+.header_content_title h1 {
+font-size:36px!important;
+margin-top: 70px!important;
+}
+.footer_info .columns {
+flex: 1 0 100%;
+margin-bottom: 25px;
+text-align: center;
+}
+header .header_content_description {
+margin: 35px auto;    
+}
+.services .services_cards_item {
+    flex: 0 1 100%;
+    margin-left: 0!important;    
+    }
+.services div.services_cards_more_item {
+flex: 0 1 100%;  
+margin-bottom: 25px;
+} 
+div.services {
+padding-bottom: 100px;    
+}
+div.slider_items_img {
+flex: 0 1 50%;  
+max-width: 50%;  
+    }
+.clients .row {flex-wrap: wrap;}   
+.clients .columns {flex:1 0 100%;} 
+div.clients_cards {margin-top: 35px;}
+div.clients_cards div {margin-bottom: 25px;}
+div.clients_info {text-align: center;}
+div.clients_info p {padding-left: 0;}
+.design_info_columns {flex-wrap: wrap;}
+div.design_column {
+text-align: center;
+margin: 0;
+flex: 1 0 100%;    
+}
+div.design_column + div.design_column {margin-left: 0;}
+}
+@media screen and (max-width:425px) {
+a.btn {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
+}
+.footer_copy {
+justify-content: center;
+flex-direction: column;    
+}
+p.footer_copy_text {
+text-align: center;    
+}
+}
+@media screen and (max-width:1024px) {
+div.quality_cards_items {flex:0 1 100%;}   
+div.services_cards_more_item {
+flex: 0 1 50%;    
+}  
+div.plans {
+padding: 85px 0;    
+} 
+.plans .row {
+flex-wrap: wrap;  
+}
+.plans div.columns {
+flex:1 0 100%;    
+}  
+div.plans_info {
+margin-bottom: 35px;
+text-align: center;    
+}
+div.plans p {
+padding-right: 0; 
+margin: 35px auto;   
+}
+div.plans a.btn {
+margin: 0 auto;    
+}
+div.plans_cards {
+justify-content: center;    
+}
+div.clients {padding: 100px 0;}
+}
+@media screen and (max-width:600px) {
+div.plans div.orange-bg {display: none;} 
+  
+}
+@media screen and (max-width:470px) {
+div.slider_items_img {
+flex: 0 1 100%; 
+max-width: 100%;   
+text-align: center;
+                }     
+ul.slider_control {
+flex-direction: column;
+flex-wrap: wrap;    
+} 
+ul.slider_control li {
+margin-bottom: 10px;    
+}
+div.slider {padding: 30px 0;}
+}
+@media screen and (max-width:970px) {
+div.order_text {
+text-align: center;
+padding:0 15px;}  
+div.order {padding: 100px 0;}
+.order .columns {
+flex: 1 0 100%;    
+}
+div.order {padding: 35px 0;}
+.order .row {flex-wrap: wrap;}
+div.input_50_wrap {flex-wrap: wrap;}
+div.input_50_wrap input.input_50 {
+flex: 1 0 100%;    
+}
+input.input_50 + input.input_50 {
+margin-left: 0!important;    
+}
+}
